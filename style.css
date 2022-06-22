@@ -69,3 +69,49 @@ footer a {
   text-decoration: none;
   color: black;
 }
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .call-to-action {
+    width: 50%;
+  }
+
+  .call-to-action-link {
+    width: 50%;
+  }
+  .circles {
+    display: flex;
+    align-items: right;
+  }
+
+  .circleBase {
+    border-radius: 50%;
+  }
+
+  .circle1 {
+    width: 100px;
+    height: 100px;
+    background: rgba(207, 130, 213, 0.6);
+  }
+
+  .circle2 {
+    width: 150px;
+    height: 150px;
+    background: rgba(247, 193, 162, 0.7);
+  }
+
+  .circle3 {
+    width: 200px;
+    height: 200px;
+    background: rgba(247, 136, 167, 0.6);
+  }
+}
